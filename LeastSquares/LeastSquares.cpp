@@ -491,7 +491,9 @@ if(answer3 == "save"){
     save_CSV(ready_to_save);
 
     cout << "Saving completed." << endl << endl;
-    system("pause");
+    cout << "Press any key to exit.";
+    cin.ignore();
+    cin.get();
 }
 
 return 0;

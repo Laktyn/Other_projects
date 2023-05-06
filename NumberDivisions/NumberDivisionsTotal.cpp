@@ -36,6 +36,8 @@ cout<<"Istnieje "<<part<<" takich zapisow."<<endl;
 cout<<"Obliczenia zajely "<<chrono::duration_cast<chrono::microseconds>(end - start).count()<<" mikrosekund."<<endl;
 
 cout<<endl;
-system("pause");
+cout << "Press any key to exit.";
+cin.ignore();
+cin.get();
 return 0;
 }
